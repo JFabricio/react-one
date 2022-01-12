@@ -1,0 +1,29 @@
+.Card{
+    flex: 1;
+    margin: 10px;
+    background-color: rgb(156, 158, 160);
+    overflow: hidden;
+    border: 2px solid #000;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+   
+}
+
+.Card .Content{
+    flex: 1;
+    padding: 5px 5px;
+    color: #000;
+    
+}
+
+
+.Card .Footer{
+    background-color: black;
+    color: rgb(253, 253, 253);
+    border: 2px solid #638ac7;
+    border-radius: 10px;
+    padding: 5px 0px;
+}
